@@ -1,0 +1,12 @@
+{
+  "name": "Appnew",
+  "displayName": "Appnew",
+  "expo": {
+    "name": "Appnew",
+    "slug": "Appnew",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
