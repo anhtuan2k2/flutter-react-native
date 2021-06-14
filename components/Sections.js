@@ -35,7 +35,7 @@ export default class Sections extends React.PureComponent<SectionsProps> {
     this.onScrollX = onScroll({ x: this.x });
     this.onScrollY = onScroll({ y: this.y });
   }
-
+// sấ
   render() {
     const {
       x, y, onScrollX, onScrollY,
