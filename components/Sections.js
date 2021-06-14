@@ -24,7 +24,7 @@ const onScroll = (contentOffset: { x?: Value, y?: Value }) => event(
       },
     },
   ],
-  { useNativeDriver: true },
+  { useNativeDriver: true },  
 );
 
 export default class Sections extends React.PureComponent<SectionsProps> {
@@ -44,7 +44,7 @@ export default class Sections extends React.PureComponent<SectionsProps> {
     return (
       <View style={styles.container}>
         <View>
-          {/* <Headers {...{ sections, y, x }} /> */}
+          <Headers {...{ sections, y, x }} />
           <Pages {...{ sections, y, x }} />
         </View>
         <Animated.ScrollView

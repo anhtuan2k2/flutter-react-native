@@ -1,7 +1,7 @@
 // @flow
 import * as React from 'react';
 import {
-  View, StyleSheet, Image, Dimensions,
+  View, StyleSheet, Image, Dimensions,Text
 } from 'react-native';
 import { LinearGradient } from 'expo';
 
@@ -17,13 +17,14 @@ export default class Header extends React.PureComponent<HeaderProps> {
     const colors = [section.leftColor, section.rightColor];
     return (
       <View style={styles.container}>
-        <Image source={section.image} style={styles.image} />
+        {/* <Image source={section.image} style={styles.image} />
         <LinearGradient
           style={styles.gradient}
           start={[0, 0]}
           end={[1, 0]}
           {...{ colors }}
-        />
+        /> */}
+        <Text>Hello</Text>
       </View>
     );
   }
